@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  
+  extend Findable
   extend Memorable::ClassMethods
   
   attr_accessor :name
